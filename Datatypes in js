@@ -12,3 +12,29 @@ PRIMITIVE:
 5> null
 6> Bigint 		// let age=Bigint("33");
 7> symbol		// let sym=symbol("hlo");
+
+
+NON-PRIMITIVE:
+1> Object: collection of data or values {key:value};
+
+let student={
+    name : "shashank chauhan",
+    age : 17,
+    sem : 1,
+    cgpa : 8.19
+};
+
+there are two ways to access the values of a object:
+1> dot notation
+>> console.log(student.name);	// shashank chauhan
+
+2> bracket notation
+>> console.log(student["age"]);	// 17
+
+how to change the values in the object.
+
+student.name="chauhan shashank";	// values updated
+student.sem=2;
+student.cgpa=null;
+
+after refresh the page values changes to their original values.
