@@ -1,1 +1,9 @@
 // write a program to calculate the sum of n numbers.
+
+
+let sum=0;
+let n=prompt("enter a number: ");
+for(let i=0; i<=n; i++){
+    sum+=i;
+}
+console.log("sum of n numbers are: ",sum);
