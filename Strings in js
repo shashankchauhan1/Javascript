@@ -1,0 +1,17 @@
+In JS Strings are immutable
+
+
+it is a sequence of characters : "Shashank" 	<-- this is a string
+
+let str="javascript";
+
+few string inbuilt functions:
+1> length : to find the length of the string.
+
+let str="shashank";
+console.log(str.length);	// output : 8
+
+2> access through index.
+
+let str="shashank";
+console.log(str[0],str[7]);
