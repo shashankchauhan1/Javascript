@@ -1,1 +1,12 @@
 // Create a game in which you have to set a number and take the inputs from the user until the input is equal to the number.
+
+1> using do-while loop
+
+let gameNumber=5;
+let guess;
+do{
+    guess=parseInt(prompt("Enter a number: "));
+    if(gameNumber==guess){
+        console.log("Your guess is correct.");
+    }
+}while(gameNumber!=guess);
