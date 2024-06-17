@@ -10,3 +10,13 @@ do{
         console.log("Your guess is correct.");
     }
 }while(gameNumber!=guess);
+
+
+2> using while loop
+
+let gameNumber=5;
+let guess;
+while(gameNumber!=guess){
+    guess=parseInt(prompt("Enter a number: "));
+}
+console.log("congratulation! you guessed right.");
