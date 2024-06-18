@@ -1,0 +1,4 @@
+prompt the user to enter their fullname, and generate a user name for them based in the input. 
+start username with @, then their name, then the length of their name.
+
+eg: user name : shashank	Generated username : @shashank8
