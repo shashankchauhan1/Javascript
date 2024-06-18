@@ -50,3 +50,18 @@ console.log(concatedStr);		// hello world123
 
 "name"+124	// output is name124
 123+"hlo"		// output is 123hlo
+
+
+6> .replace(oldVal,newVal);
+it will replace the old value with new value.
+
+let str = "Whatsapp"
+console.log("Old Val: ",str);			// Whatsapp
+console.log("New Val",str.replace("app","up"));	// Whatsup
+
+replace se first time jo value match hui vo change hogi or replaceAll() se sari values.
+
+
+7> .charAt(index) :  it return the character at that given index.
+let str="Shashank chauhan";
+console.log(str.charAt(7));
