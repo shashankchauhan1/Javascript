@@ -15,3 +15,38 @@ console.log(str.length);	// output : 8
 
 let str="shashank";
 console.log(str[0],str[7]);
+
+
+Few More String Meathods in JS.
+
+1> .toUpperCase() : to convert string in uppercase.	// SHASHANK
+let str='shashank';
+
+2> .toLowerCase() : to convert string in lowercase.	// CHAUHAN
+let str='CHAUHAN';
+
+3> .trim() : remove the useless whitespaces.
+let str='       Hello World     ';	// 'Hello World'
+console.log(str.trim());
+3.1> .trimLeft();	// 'Hello World	' 
+3.2> .trimRight();	// '	Hello World'
+
+4> .slice(start,end) : to extract a part from the string.
+let str='hello world';
+console.log(str.slice(2,9));
+
+5> .concat() : use to concat two strings.
+let str1='hello ';
+let str2='world';
+let concatedStr=str1.concat(str2);
+console.log(concatedStr);
+
+we can also use + to concatinate two strings.
+
+let str1='hello ';
+let str2='world';
+let concatedStr=str1+str2+123;		
+console.log(concatedStr);		// hello world123
+
+"name"+124	// output is name124
+123+"hlo"		// output is 123hlo
