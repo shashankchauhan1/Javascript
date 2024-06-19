@@ -1,1 +1,22 @@
+// using for loop
+
+let arr=[85,97,44,37,76,60];
+let len=arr.length;
+let sum=0;
+for(let i=0; i<len; i++){
+    sum+=arr[i];
+}
+console.log("Average is: ",sum/len);
+
+
+// using for-of loop
+
+let arr=[85,97,44,37,76,60];
+let len=arr.length;
+let sum=0;
+for(let i of arr){
+    sum+=i;
+}
+let avg=sum/len;
+console.log(`average marks of the entire class is ${avg}`);
 
