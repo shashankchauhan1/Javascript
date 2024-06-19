@@ -1,1 +1,9 @@
 // Write a program to delete a element from the end of an array.
+
+
+2> pop() : to delete & return a value from the end of the array
+
+let arr=['aventador','urus','divo','chiron'];
+let dVal=arr.pop();				// remove chiron from the array
+console.log(arr);				// ['aventador','urus','divo','chiron']
+console.log(`Deleted Value is: ${dVal}`);		// Deleted Value is: chiron
