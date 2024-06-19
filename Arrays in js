@@ -1,0 +1,7 @@
+// Arrays is a collection of data.
+// Arrays are mutable.
+// In JS the typeof arrays are object.
+
+>> how to declare a array.
+
+let name=["m5","m3","m8","m2"];
