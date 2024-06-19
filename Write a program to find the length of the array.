@@ -1,0 +1,14 @@
+// 1> by using length property
+
+let name=["m5","m3","m8","m2"];
+console.log(name.length);
+
+
+// 2> by using for-of loop
+
+let arr=[1,2,3,4,5];
+let len=0;
+for(let i of arr){
+    len++;
+}
+console.log(len);
