@@ -1,2 +1,7 @@
 // write a program to add a value at the beginning of the array.
 
+3> unshift() : to add the value at the starting of the array.
+
+let arr=['aventador','urus','divo','chiron'];
+arr.unshift('la voiture noire');
+console.log(arr);				// ['la voiture noire','aventador','urus','divo','chiron']
