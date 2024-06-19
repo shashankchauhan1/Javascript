@@ -1,1 +1,10 @@
 // Write a program to add a element in the end of the array.
+
+1> push() : use to add new value at the end of the array.
+
+let arr=['aventador','urus','divo','chiron'];
+arr.push('bolide');				// add single value
+console.log(arr);			// output:  ['aventador','urus','divo','chiron','bolide']
+
+let arr=['aventador','urus','divo','chiron'];
+arr.push('bolide','huracan');			// add multiple values.
