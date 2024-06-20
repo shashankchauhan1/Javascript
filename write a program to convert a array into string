@@ -1,1 +1,8 @@
 // write a program to convert a array into string
+
+
+5> toString() : it convert the array to string.
+
+let arr=['aventador','urus','divo','chiron'];
+let newArr=arr.toString();
+console.log(newArr);			// aventador,urus,divo,chiron
