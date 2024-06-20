@@ -1,0 +1,8 @@
+// write a program to slice a array
+
+
+8> slice() : to extract few values from the array
+
+let arr=['aventador','urus','divo','chiron'];
+let newArr=arr.slice(1,3);
+console.log(newArr);			// ['urus','divo']
