@@ -1,1 +1,9 @@
 // write a program to concat two arrays
+
+
+6> concat() : it concat two arrays.
+
+let arr1=['aventador','urus'];
+let arr2=['divo','chiron'];
+let newArr=arr1.concat(arr2);
+console.log(newArr);			// ['aventador', 'urus', 'divo', 'chiron']
