@@ -1,0 +1,8 @@
+// write a program to remove a element from the starting of the array.
+
+
+7> shift() : use to remove the element from the starting of the array.
+
+let arr=['aventador','urus','divo','chiron'];
+arr.shift();
+console.log(arr);			// ['urus','divo','chiron']
