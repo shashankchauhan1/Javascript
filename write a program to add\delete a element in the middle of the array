@@ -1,0 +1,14 @@
+// write a program to add a element in the middle of the array
+
+
+4> splice() : use to add new value at the middle of the array and also delete from the middle of the array.	// if we pass only one element in the spilce function it works as slicing.
+
+arrName.splice(startingIndex, deleteCount, newValue);
+
+let arr=['aventador','urus','divo','chiron'];
+arr.splice(1,0,'veyron');
+console.log(arr);			// ['aventador','veyron','urus','divo','chiron']
+
+let arr=['aventador','urus','divo','chiron'];
+arr.splice(1,2,'veyron','huracan');	// ['aventador','veyron','huracan','chiron']
+console.log(arr);
