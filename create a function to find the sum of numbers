@@ -1,1 +1,15 @@
 
+1> 
+function add(n1,n2){			// function declaration/defination.
+    console.log(n1+n2);
+}
+add(2,5);				// function calling.
+
+
+
+2>			                          // by returning the value
+function add(n1,n2){
+    return n1+n2;
+}
+let sum=add(2,5);
+console.log(add);
