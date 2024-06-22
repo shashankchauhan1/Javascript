@@ -1,1 +1,6 @@
+Q Create a arrow function for the multiplication of the 2 numbers.
 
+const multiple=(a,b)=>{
+    console.log(a*b);
+}
+multiple(3,6);
