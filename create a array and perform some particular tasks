@@ -1,3 +1,18 @@
 // task 1: remove the first company from the array.
 // task 2: remove uber and ola in its place.
 // task 3: add amazon at the end.
+
+
+let arr=["Bloomberg","Microsoft","Uber","Google","IBM","netflix"];
+
+// task 1: remove the first company from the array.
+// arr.shift();
+// console.log(arr);
+
+// task 2: remove uber and ola in its place.
+// arr.splice(2,1,"ola");
+// console.log(arr);
+
+// task 3: add amazon at the end.
+// arr.push("amazon");
+// console.log(arr);
