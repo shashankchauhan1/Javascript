@@ -10,3 +10,19 @@ function countVowel(str){
     console.log(count);
 }
 countVowel("Education");
+
+
+
+
+2>        				// using arrow function
+let count=0;
+let countVowel=(str)=>{
+    for(let i of str){
+        if(i==='a' || i==='e' || i==='i' || i==='o' || i==='u' || i==='A' || i==='E' || i==='I' || i==='O' || i==='U'){
+            count++;
+        }
+    }
+    console.log(count);
+}
+let str="javascript"
+countVowel(str);
