@@ -1,1 +1,10 @@
+m3>>> filter meathod in arrays : it creates the new array by filtering the values according to the condition.
 
+if we want to find all the even numbers in a array we use filter and write the condition which check each value in the array the filter it out in the new array.
+
+let arr=[1,2,3,4,5];
+let newArr=arr.filter((val)=>{
+    return val%2==0;
+});
+console.log(`array before filtering ${arr}`);
+console.log(`array after filtering ${newArr}`);
