@@ -1,1 +1,10 @@
 // Reduce meathod
+
+
+Q write a program to calculate the sum of the array elements.
+let arr=[1,2,3,4,5,6,7,8,9];
+let output = arr.reduce((resultVal,currentVal)=>{
+    return resultVal+currentVal;
+});
+console.log(arr);			// [1,2,3,4,5,6,7,8,9]
+console.log(output);			// 45
