@@ -1,4 +1,4 @@
-m2>>> map meathod in arrays : it is similar to forEach but we can create a new array with the help of this.
+m2>>> map method in arrays : it is similar to forEach but we can create a new array with the help of this.
 
 let arr=[1,2,3,4,5];
 let newArr=arr.map((val)=>{
