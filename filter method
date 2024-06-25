@@ -1,4 +1,4 @@
-m3>>> filter meathod in arrays : it creates the new array by filtering the values according to the condition.
+m3>>> filter method in arrays : it creates the new array by filtering the values according to the condition.
 
 if we want to find all the even numbers in a array we use filter and write the condition which check each value in the array the filter it out in the new array.
 
