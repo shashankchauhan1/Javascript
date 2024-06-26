@@ -1,0 +1,8 @@
+1> Accessing Data:
+
+1.1> by id:
+
+let val=document.getElementById("hi");
+console.dir(val);
+
+>> when a id is not found it return null.
