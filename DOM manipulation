@@ -32,3 +32,11 @@ console.dir(val);
 
 let firstElement=document.querySelector("div");
 console.dir(firstElement);
+
+-------------------------------------------------------------------------------------------------------
+
+1.5> 	querySelectorAll("#id" / ".class" / "tag");
+>> it return the list of all nodes.
+
+let allElements=document.querySelectorAll(".ant");
+console.dir(allElements);
