@@ -7,6 +7,7 @@ console.dir(val);
 
 >> when a id is not found it return null.
 
+-----------------------------------------------------------------------------------------------------
 
 1.2> by class
 
@@ -15,6 +16,7 @@ console.dir(val);
 
 >> when a class is not found it return a empty collection.
 
+------------------------------------------------------------------------------------------------------
 
 1.3> by tagName
 
@@ -22,3 +24,11 @@ let val=document.getElementsByTagName("div");
 console.dir(val);
 
 >> when a tagname is not found it return a empty collection.
+
+-----------------------------------------------------------------------------------------------------
+
+1.4> by using 	querySelector("#id" / ".class" / "tag");
+>> it return the first element
+
+let firstElement=document.querySelector("div");
+console.dir(firstElement);
