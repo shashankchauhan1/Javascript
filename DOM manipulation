@@ -14,3 +14,11 @@ let val=document.getElementsByClassName("by");
 console.dir(val);
 
 >> when a class is not found it return a empty collection.
+
+
+1.3> by tagName
+
+let val=document.getElementsByTagName("div");
+console.dir(val);
+
+>> when a tagname is not found it return a empty collection.
