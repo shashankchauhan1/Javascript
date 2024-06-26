@@ -6,3 +6,11 @@ let val=document.getElementById("hi");
 console.dir(val);
 
 >> when a id is not found it return null.
+
+
+1.2> by class
+
+let val=document.getElementsByClassName("by");
+console.dir(val);
+
+>> when a class is not found it return a empty collection.
