@@ -1,1 +1,17 @@
+we can get(check) and set(update) the element by using this properties.
 
+<div id="hi">
+    <ul>
+        <li>apple</li>
+        <li>mango</li>
+        <li>orange</li>
+    </ul>
+</div>
+
+let div=document.querySelector("div");
+console.dir(div);
+
+--------------------------------------------------------------------
+1> tagName : return the name of the tag of the node.
+
+firstElement.tagName;		//  'DIV'	<--- it returns div
