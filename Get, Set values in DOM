@@ -11,7 +11,17 @@ we can get(check) and set(update) the element by using this properties.
 let div=document.querySelector("div");
 console.dir(div);
 
---------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------
 1> tagName : return the name of the tag of the node.
 
 firstElement.tagName;		//  'DIV'	<--- it returns div
+
+--------------------------------------------------------------------------------------------------------------
+2> innerText : return the text inside the code
+
+div.innerText;				// this will return the apple\nmango\norange.
+
+>> we can set the value of the div at runtime by doing this ⬇.
+
+div.innerText="abcd";	// inner text changes to abcd but after refreshing the page it disappear.
+
