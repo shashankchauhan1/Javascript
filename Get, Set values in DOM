@@ -12,11 +12,13 @@ let div=document.querySelector("div");
 console.dir(div);
 
 -----------------------------------------------------------------------------------------------------
+
 1> tagName : return the name of the tag of the node.
 
 firstElement.tagName;		//  'DIV'	<--- it returns div
 
 --------------------------------------------------------------------------------------------------------------
+
 2> innerText : return the text inside the code
 
 div.innerText;				// this will return the apple\nmango\norange.
@@ -25,3 +27,12 @@ div.innerText;				// this will return the apple\nmango\norange.
 
 div.innerText="abcd";	// inner text changes to abcd but after refreshing the page it disappear.
 
+--------------------------------------------------------------------------------------------------------------
+
+3> innerHTML : return the inner whole html code.
+
+div.innerHTML;				// this will return the whole html code inside the div.
+
+>>> div.innerHTML="<b>shashank chauhan</b>"		// this code bold the text
+
+--------------------------------------------------------------------------------------------------------------
