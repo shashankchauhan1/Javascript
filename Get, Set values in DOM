@@ -36,3 +36,12 @@ div.innerHTML;				// this will return the whole html code inside the div.
 >>> div.innerHTML="<b>shashank chauhan</b>"		// this code bold the text
 
 --------------------------------------------------------------------------------------------------------------
+
+4> textContent : it is similar to innerText but it also return the value of hidden elements.
+
+suppose in some code the visibility="hidden"; so it return this hidden element also with others.
+
+<h1>hello world</h1>		// in css visibility is hidden so when we use inner text it return 
+					'/napple/nmango/norange'
+but when we use textContent it return 
+'\n        Hello world\n        \n            apple\n            mango\n            orange\n        \n    '	// in the form of string.
