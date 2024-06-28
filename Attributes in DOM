@@ -8,3 +8,12 @@
 let get = document.querySelector("div");		// js
 console.dir(get.getAttribute("textbox"));			// hlo
 console.dir(get.getAttribute("class"));			// box
+
+--------------------------------------------------------------------------------------------------------
+
+2> setAttribute(""attributeName","value");
+
+<div class="box" textbox="hlo">Html</div>	// html
+
+let get = document.querySelector("div");
+console.dir(get.setAttribute("textbox","bye"));	it will change the value from hlo to bye
