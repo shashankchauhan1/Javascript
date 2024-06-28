@@ -1,1 +1,10 @@
 //  Attributes in DOM
+
+
+1> getAttribute("attributeName");		// get the value of attribute.
+
+<div class="box" textbox="hlo">Html</div>	// html
+		
+let get = document.querySelector("div");		// js
+console.dir(get.getAttribute("textbox"));			// hlo
+console.dir(get.getAttribute("class"));			// box
