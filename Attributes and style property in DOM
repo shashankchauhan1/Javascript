@@ -30,3 +30,17 @@ if we want to access the style of a div or element.
 
 let val=document.querySelector(".box");		// accessing the element
 console.dir(val.style);			// return the style of the element
+
+--------------------------------------------------------------------------------------------------------------
+
+>> we can change also change the value of style properties:
+
+val.style.background="black";			// it change the color of background to black
+
+let val=document.querySelector(".box");		// access the element
+val.style.background="black";			// change the background color
+val.style.color="aqua";			// change the text color
+val.innerText=val.innerText+" Css"+" Javascript";	// change the inner text
+console.dir(val.style);
+
+
