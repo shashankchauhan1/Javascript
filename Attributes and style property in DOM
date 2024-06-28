@@ -17,3 +17,16 @@ console.dir(get.getAttribute("class"));			// box
 
 let get = document.querySelector("div");
 console.dir(get.setAttribute("textbox","bye"));	it will change the value from hlo to bye
+
+-----------------------------------------------------------------------------------------------------------
+
+Style properties.
+
+if we want to access the style of a div or element.
+
+1> node.style
+
+<div class="box" textbox="hlo">Html</div>		/ html
+
+let val=document.querySelector(".box");		// accessing the element
+console.dir(val.style);			// return the style of the element
