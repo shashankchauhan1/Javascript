@@ -28,3 +28,10 @@ div.before(newEl);				// adding before the node
 let div=document.querySelector("div");		// access the element
 div.after(newEl);				// adding after the node
 
+--------------------- How to remove the a node ---------------------------------------
+
+3> node.remove();
+
+let btnRmv=document.querySelector("button");		// access the element.
+btnRmv.remove();					// remove the element.
+
