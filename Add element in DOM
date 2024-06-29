@@ -21,3 +21,10 @@ div.prepend(newEl);				// add the element in the starting of the node.
 let div=document.querySelector("div");		// access the element
 div.before(newEl);				// adding before the node
 
+-------------------------------------------------------------------------------------
+
+2.2> node.after()		// add the element after the node
+
+let div=document.querySelector("div");		// access the element
+div.after(newEl);				// adding after the node
+
