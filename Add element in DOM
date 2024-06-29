@@ -1,7 +1,6 @@
 // adding element in DOM
 
-Suppose we have a div 
--------------------------------------------------------------------------------------
+-----------------------------------------add inside the element--------------------------------------------
 
 1> node.append();		// add at the end of the node
 
@@ -14,3 +13,11 @@ div.append(newEl);				// add the element in the end of the node.
 
 let div=document.querySelector("div");		// access the div
 div.prepend(newEl);				// add the element in the starting of the node.
+
+------------------------------------- add outside the element--------------------------------
+
+2.1> node.before()		// add the element before the node
+
+let div=document.querySelector("div");		// access the element
+div.before(newEl);				// adding before the node
+
