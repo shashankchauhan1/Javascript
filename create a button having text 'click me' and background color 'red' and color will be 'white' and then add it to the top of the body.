@@ -1,0 +1,10 @@
+// create element
+let btn=document.createElement("button");
+btn.innerText="click me";
+btn.style.backgroundColor="red";
+btn.style.color="white";
+
+// add element
+
+let add=document.querySelector("body");
+add.prepend(btn);
