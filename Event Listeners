@@ -1,3 +1,10 @@
 // Event Listeners
 
 
+they are the functions which listen for the events if the event come it executes.
+			handler
+node.addEventListner(event,callback);
+
+
+<button class="btn">click me</button>
+<div class="box">this is a div having class box</div>
