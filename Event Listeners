@@ -8,3 +8,17 @@ node.addEventListner(event,callback);
 
 <button class="btn">click me</button>
 <div class="box">this is a div having class box</div>
+
+
+let div=document.querySelector(".box");			// html
+						
+div.addEventListener("mouseover",()=>{			// Js
+    div.style.backgroundColor="black";
+    div.style.color="aqua";
+    console.log("ho");
+});
+
+div.addEventListener("mouseout",()=>{
+    div.style.backgroundColor="yellow";
+    div.style.color="black";
+});
