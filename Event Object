@@ -1,0 +1,17 @@
+// Event Object
+
+it is a special type of object which stores the details about the event.
+
+what type of it is, what does this event do and more......, in which position we click on that event
+>> while applying the arrow function we'll give a variable in the parenthesis and then apply the properties on that event.
+
+let access=document.querySelector(".btn");		// accessing the element
+access.onclick=(e)=>{					// node.event in which element name given
+    access.style.backgroundColor="black";			// color changes
+    access.style.color="white";
+    console.log("button clicked");				// log statement prints
+    console.log(e);					// prints the object of element e
+    console.log(e.type);				// type of object
+    console.log(e.target);				// target(work) of object
+    console.log(`value of client X and Y is ${e.clientX} ${e.clientY}`);	// position where we click
+}
