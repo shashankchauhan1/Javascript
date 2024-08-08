@@ -14,4 +14,4 @@ meta,meta,title,link	    div      script
 			                    /
 			        img,h1,p,div,'tags'
 
->>> when a web page is loaded so the browser create the DOM of the page.
+>>> when a web page is loaded so the browser create the DOM(document object model) of the page.
