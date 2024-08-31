@@ -32,4 +32,13 @@ let value=generator("Ram",2);
 console.log(value);
 
 
-2> Constructor Function
+2> Constructor Function : used to initialize / define.
+
+// to write constructor function we'll write in pascel notation
+
+function area(l,b){
+    this.length=l;
+    this.breadth=b;
+}
+let newval=new area(2,4);
+console.log(newval);
