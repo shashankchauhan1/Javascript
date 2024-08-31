@@ -2,6 +2,8 @@
 
 1> Factory Function: it is a function where object creates we call the function and it return the object.
 
+1.1> way one to create
+
 function generator(n,a){
     return values={
         name:n,
@@ -13,3 +15,21 @@ function generator(n,a){
 }
 let value=generator("Ram",2);
 console.log(value);	
+
+1.2> another way to create
+
+function generator(n,a){
+    let values={
+        name:n,
+        age:a,
+        work:function(){
+            console.log("buisnessman");
+        }
+    };
+    return values;
+}
+let value=generator("Ram",2);
+console.log(value);
+
+
+2> Constructor Function
