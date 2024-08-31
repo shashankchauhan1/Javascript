@@ -1,0 +1,15 @@
+// Factory and Constructor Function.
+
+1> Factory Function: it is a function where object creates we call the function and it return the object.
+
+function generator(n,a){
+    return values={
+        name:n,
+        age:a,
+        work:function(){
+            console.log("buisnessman");
+        }
+    };
+}
+let value=generator("Ram",2);
+console.log(value);	
